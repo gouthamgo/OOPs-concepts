@@ -18,7 +18,8 @@ function Book(title, author, year) {
 const book1 = new Book ('Hippie', 'Paulo Coelho', '2018');
 const book2 = new Book ('The Alchemist', 'Paulo Coelho', '1988');
 Prototypal inheritance
-For each instance of Book, we’re recreating the memory for the methods from the base class. These methods must be shared across all instances — they should not be specific to the instance. Here the prototype comes into the picture:
+For each instance of Book, we’re recreating the memory for the methods from the base class. 
+These methods must be shared across all instances — they should not be specific to the instance. Here the prototype comes into the picture:
 let Corebook = function(title) {
   this.title = title
 }
