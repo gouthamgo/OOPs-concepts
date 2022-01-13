@@ -1,7 +1,7 @@
 # OOPs-concepts- JAVASCRIPT
 
 ```
-Object, property, and method
+Object, property, and methods
 Class
 Encapsulation
 Abstraction
